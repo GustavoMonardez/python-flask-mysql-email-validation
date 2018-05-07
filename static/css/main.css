@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+.wrapper{
+    width: 100%;
+    padding:30px 100px;
+}
+
+form, .friends, h1{
+    width:400px;
+    margin:auto;
+}
+
+form{
+    margin-top:20px;
+}
+
+h1{
+    font-size: 26px;
+    margin-bottom:20px;
+}
+
+.friends{
+    border-bottom:1px solid silver;
+    margin-bottom:10px;
+}
+
+.friends p{
+    margin:0px;
+}
+
+.friends span{
+    margin-right:30px;
+    color:royalblue;
+}
