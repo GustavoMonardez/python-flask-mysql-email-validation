@@ -13,7 +13,7 @@
         <div class="emails">
             <form action="/remove" method="POST">
             {% if selected %}
-            <div class="success">The email address you entered ( {{selected[0]["email"]}}) is a VALID email address! Thank you!</div>
+            <div class="success">The email address you entered ({{selected[0]["email"]}}) is a VALID email address! Thank you!</div>
             {% endif %}
             <h1>Email Addresses Entered</h1>     
             {% for email in emails%}
